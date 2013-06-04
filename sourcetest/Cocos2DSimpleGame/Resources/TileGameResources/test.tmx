@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="24" height="16" tilewidth="20" tileheight="20">
+ <tileset firstgid="1" name="test" tilewidth="20" tileheight="20">
+  <image source="test.png" width="256" height="256"/>
+  <tile id="34">
+   <properties>
+    <property name="Wall" value="4"/>
+   </properties>
+  </tile>
+  <tile id="67">
+   <properties>
+    <property name="Wall" value="3"/>
+   </properties>
+  </tile>
+  <tile id="68">
+   <properties>
+    <property name="End" value="3"/>
+   </properties>
+  </tile>
+  <tile id="71">
+   <properties>
+    <property name="Go" value="1"/>
+   </properties>
+  </tile>
+  <tile id="84">
+   <properties>
+    <property name="Wall" value="2"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="24" height="16">
+  <data encoding="base64" compression="zlib">
+   eJwLZWBgcKEB9oDiUDqY70FDTC/zlYnAxKpTJmA+qW4kx3xS3InPfFc8bgolgInxK63dPxDhTw08UvOXyyAMH1qWnwClJVwe
+  </data>
+ </layer>
+</map>
